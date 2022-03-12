@@ -14,11 +14,24 @@ int main()
 
 	//declaring variables 
 
-	int n1 = 0;
+	int age = 0;
 
 
 
-	/
+	//asking for age
+
+	cout << "Enter your age: ";
+
+	cin >> age;
 
 
-		stinky
+
+	//doing maths 
+
+	if (age < 16)
+		cout << "You aren't allowed to drive yet.";
+	else 
+		cout << "You are allowed to drive!";
+
+		return(0);
+}
